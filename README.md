@@ -48,7 +48,7 @@ Structured questlines help guide new players while still leaving unlimited freed
 
 ---
 
-## 🧩 Changelogs
+## 🧩 For Contributors
 
 Contributions are welcome!  
 If you want to help with configs, scripts, balancing, quests, or improvements:
@@ -75,7 +75,7 @@ Thanks to all mod developers and contributors who make this pack possible ❤️
 
 ---
 
-## 🧩 Changelogs
+## 📜 Changelogs
 
 Journey from a kitchen sink to a properly functional modpack with quests!  
 
