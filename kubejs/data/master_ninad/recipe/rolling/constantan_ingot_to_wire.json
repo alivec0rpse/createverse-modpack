@@ -1,0 +1,14 @@
+{
+  "type": "createaddition:rolling",
+  "ingredients": [
+    {
+      "item": "tfmg:constantan_ingot"
+    }
+  ],
+  "results": [
+    {
+      "count": 2,
+      "id": "tfmg:constantan_wire"
+    }
+  ]
+}

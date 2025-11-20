@@ -1,0 +1,15 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:dripstone_block"
+    }
+  ],
+  "processing_time": 500,
+  "results": [
+    {
+      "count": 2,
+      "id": "minecraft:pointed_dripstone"
+    }
+  ]
+}

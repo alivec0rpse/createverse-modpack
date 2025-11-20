@@ -1,0 +1,21 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+        {
+            "item": "minecraft:sugar"
+        },
+        {
+            "item": "create:cinder_flour"
+        },
+        {
+            "type": "fluid_tag",
+            "amount": 1000,
+            "fluid_tag": "c:milk"
+        }
+    ],
+    "results": [
+        {
+            "id": "create:blaze_cake_base"
+        }
+    ]
+}

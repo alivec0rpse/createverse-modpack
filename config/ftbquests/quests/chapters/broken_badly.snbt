@@ -1,0 +1,19 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "broken_badly"
+	group: "436C2D5B063B314F"
+	id: "03795F25DFECB2E5"
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		id: "4D3A4F0991C4C420"
+		tasks: [{
+			id: "52712CD5A7754D0F"
+			item: { count: 1, id: "minecraft:bedrock" }
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.5d
+	}]
+}

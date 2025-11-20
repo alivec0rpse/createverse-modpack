@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hard"
+	group: "3E6C968EE5E7FC9A"
+	icon: {
+		id: "minecraft:netherite_block"
+	}
+	id: "06CD01F2100ABFE8"
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		id: "7FFE931D45E9F7DA"
+		tasks: [{
+			id: "685FC9555D9CF4D5"
+			item: { count: 1, id: "minecraft:bedrock" }
+			type: "item"
+		}]
+		x: -0.5d
+		y: -0.5d
+	}]
+}

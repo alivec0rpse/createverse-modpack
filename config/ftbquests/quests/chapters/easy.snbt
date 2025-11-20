@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "easy"
+	group: "3E6C968EE5E7FC9A"
+	icon: {
+		id: "minecraft:iron_block"
+	}
+	id: "01126797B51796B4"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "702A1F47F9A90EEE"
+		tasks: [{
+			id: "2EB401746ECA6734"
+			item: { count: 1, id: "minecraft:bedrock" }
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.5d
+	}]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "createaddition:rolling",
+  "ingredients": [
+    {
+      "item": "tfmg:aluminum_sheet"
+    }
+  ],
+  "results": [
+    {
+      "count": 2,
+      "id": "tfmg:aluminum_wire"
+    }
+  ]
+}

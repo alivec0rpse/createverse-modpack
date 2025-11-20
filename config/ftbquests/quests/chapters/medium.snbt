@@ -1,0 +1,75 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "medium"
+	group: "3E6C968EE5E7FC9A"
+	icon: {
+		id: "minecraft:gold_block"
+	}
+	id: "3D709CE165636079"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4455D759FA4F4044"
+			tasks: [{
+				id: "636D82354AF20474"
+				item: { count: 1, id: "minecraft:bedrock" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			id: "66384E10C6EE743A"
+			rewards: [
+				{
+					count: 4
+					id: "4CF9F25ED3E44228"
+					item: {
+						count: 1
+						id: "create_sa:heap_of_experience"
+					}
+					type: "item"
+				}
+				{
+					id: "141182EF0037017A"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6D294ACEE72667C5"
+					item: { count: 1, id: "create_deep_dark:echo_armor_helmet" }
+					type: "item"
+				}
+				{
+					id: "00B6CC1537771BCD"
+					item: { count: 1, id: "create_deep_dark:echo_armor_chestplate" }
+					type: "item"
+				}
+				{
+					id: "4C3D8BE6878A6E7A"
+					item: { count: 1, id: "create_deep_dark:echo_armor_leggings" }
+					type: "item"
+				}
+				{
+					id: "68F538109B723122"
+					item: { count: 1, id: "create_deep_dark:echo_armor_boots" }
+					type: "item"
+				}
+				{
+					id: "5A3E5501D7AF59F9"
+					item: { count: 1, id: "create_deep_dark:echo_sword" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.0d
+		}
+	]
+}

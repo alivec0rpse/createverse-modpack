@@ -1,0 +1,300 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "into_the_skies"
+	group: "436C2D5B063B314F"
+	icon: {
+		id: "immersive_aircraft:propeller"
+	}
+	id: "0E6782D1CF73825B"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2F7ADD90CE6EED7E"]
+			id: "02AF715B18C3D0D5"
+			rewards: [{
+				id: "4E6BE74E051244C0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4D3C99ECE236DA9B"
+				item: { count: 1, id: "immersive_aircraft:gyrodyne" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["28642CB29C652C7B"]
+			id: "37D0E603AFEC8171"
+			rewards: [{
+				id: "51401199AC66CFBC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "46117437CC881371"
+				item: { count: 1, id: "immersive_aircraft:biplane" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["28642CB29C652C7B"]
+			id: "28435ABAB4C8A872"
+			rewards: [{
+				id: "445D785C16F79AC5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "46E9BA8F896B0CA0"
+				item: { count: 1, id: "immersive_aircraft:airship" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["28435ABAB4C8A872"]
+			id: "2804CEB4CE928AA5"
+			rewards: [{
+				id: "627717C11074DC63"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "51076AE9B149F901"
+				item: { count: 1, id: "immersive_aircraft:cargo_airship" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2804CEB4CE928AA5"]
+			id: "027578030EC29C29"
+			rewards: [{
+				id: "76C66E3DE6B87A76"
+				item: {
+					count: 1
+					id: "immersive_aircraft:hull_reinforcement"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5776209A4E530A88"
+				item: { count: 1, id: "immersive_aircraft:warship" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6357C1413D3C2F1C"]
+			icon_scale: 0.9d
+			id: "2F7ADD90CE6EED7E"
+			rewards: [{
+				id: "21D00FBC996BE888"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.5d
+			tasks: [
+				{
+					count: 2L
+					id: "155D2FC4CED657ED"
+					item: { count: 1, id: "immersive_aircraft:hull" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "115EAABC296C4616"
+					item: { count: 1, id: "immersive_aircraft:sail" }
+					type: "item"
+				}
+				{
+					id: "1194D7EB18EED1B4"
+					item: { count: 1, id: "immersive_aircraft:propeller" }
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["02AF715B18C3D0D5"]
+			id: "28642CB29C652C7B"
+			size: 1.2d
+			tasks: [{
+				id: "7B21BAA22A49819B"
+				item: { count: 1, id: "immersive_aircraft:engine" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["28642CB29C652C7B"]
+			id: "490AC989EBF9C53F"
+			optional: true
+			rewards: [{
+				id: "1F9BF1DAD5359500"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "37C3EBEC4554654E"
+				item: { count: 1, id: "immersive_aircraft:nether_engine" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["28642CB29C652C7B"]
+			id: "5D7B4D1F562734A7"
+			optional: true
+			rewards: [{
+				id: "04766B1954E79148"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "24B898067D042BDD"
+				item: { count: 1, id: "immersive_aircraft:eco_engine" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["28642CB29C652C7B"]
+			id: "471FA7ACF4F3EF16"
+			optional: true
+			rewards: [
+				{
+					id: "2886BD6A8E1AED06"
+					item: {
+						count: 1
+						id: "immersive_aircraft:engine"
+					}
+					type: "item"
+				}
+				{
+					id: "0002E63DDE3A3303"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [
+				{
+					id: "1137B7D66BBD541A"
+					item: { count: 1, id: "immersive_aircraft:improved_landing_gear" }
+					type: "item"
+				}
+				{
+					id: "70427A314449243B"
+					item: { count: 1, id: "immersive_aircraft:industrial_gears" }
+					type: "item"
+				}
+				{
+					id: "546E33CCB267106E"
+					item: { count: 1, id: "immersive_aircraft:enhanced_propeller" }
+					type: "item"
+				}
+				{
+					id: "70D99CD9C5649108"
+					item: { count: 1, id: "immersive_aircraft:gyroscope" }
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["52F3DCF1B1532612"]
+			id: "6F7273806C47CF06"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "7469DE5BA9C31672"
+				item: {
+					count: 1
+					id: "minecraft:tinted_glass"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "31D29E9DBE9F8962"
+				item: { count: 1, id: "immersive_aircraft:telescope" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"2C2969D5B84CD1D7"
+				"28642CB29C652C7B"
+			]
+			hide_dependency_lines: true
+			id: "54EE41394F845F7A"
+			optional: true
+			rewards: [{
+				id: "28758E04C30C782B"
+				item: {
+					count: 1
+					id: "create_sa:heap_of_experience"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4133621EA9EFAE92"
+				item: { count: 1, id: "man_of_many_planes:scarlet_biplane" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"2C2969D5B84CD1D7"
+				"28642CB29C652C7B"
+			]
+			hide_dependency_lines: true
+			id: "7DFC65598E0814F8"
+			optional: true
+			rewards: [{
+				id: "1F0C97A6B43A4375"
+				item: {
+					count: 1
+					id: "create_sa:heap_of_experience"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "20A1D7DF43BABA27"
+				item: { count: 1, id: "man_of_many_planes:economy_plane" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["28642CB29C652C7B"]
+			hide_dependency_lines: true
+			id: "79B995C28214A62E"
+			tasks: [{
+				id: "2D119ACB46D65F8D"
+				item: { count: 1, id: "immersive_aircraft:bamboo_hopper" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+	]
+}
