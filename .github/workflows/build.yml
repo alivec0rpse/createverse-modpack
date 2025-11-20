@@ -1,0 +1,42 @@
+name: Build Modrinth Pack
+
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Get version from modrinth.index.json
+        id: version
+        run: |
+          VERSION=$(jq -r '.versionId' modrinth.index.json)
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+
+      - name: Build .mrpack
+        run: |
+          mkdir -p build
+          zip -r build/modpack-${{ steps.version.outputs.version }}.mrpack modrinth.index.json overrides
+
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: modpack-${{ steps.version.outputs.version }}
+          path: build/modpack-${{ steps.version.outputs.version }}.mrpack
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: v${{ steps.version.outputs.version }}
+          name: "Release v${{ steps.version.outputs.version }}"
+          body: "Automatic release for version ${{ steps.version.outputs.version }}"
+          files: build/modpack-${{ steps.version.outputs.version }}.mrpack
