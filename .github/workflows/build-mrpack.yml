@@ -1,0 +1,33 @@
+name: Build Modrinth Pack
+
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+permissions:
+  contents: write  # REQUIRED for creating releases
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Build .mrpack
+        run: |
+          mkdir -p build
+          zip -r build/modpack.mrpack modrinth.index.json overrides
+
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: modrinth-pack
+          path: build/modpack.mrpack
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: build/modpack.mrpack
