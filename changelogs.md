@@ -2,8 +2,8 @@
 ## Added:
 - Simple Hats
 - Saturation Plus
-- Tacz Reloaded and Target dummy
-- Tool Belt
+- Tacz Reloaded
+- Utility Belt
 - Astikor Cart Redux
 - Not Enough Crashes
 - Vista cctv mod
@@ -13,7 +13,7 @@
 - WarStuff II - Decorations
 - ReArm:Combat Overhaul (to balance guns)
 - Prone was Pressed
-- dummmmmmmmy
+- MmmMmmMmmMmm
 
 ## Updated:
 - Create:Copycats+
