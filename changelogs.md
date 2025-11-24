@@ -1,3 +1,24 @@
+# V4.2.0
+## Added:
+- This hats mod
+- Saturation Plus
+- Tacz Reloaded and Target dummy
+- Tool Belt
+- Astikor Cart Redux
+- Not Enough Crashes
+- Vista cctv mod
+- Northstar (fix)
+- AE Infinity Booster
+- More Curious Slots
+- wlc
+- w2d
+- ReArm:Combat Overhaul (to balance guns)
+- Prone was Pressed
+- dummmmmmmmy
+
+## Updated:
+- Create:Copycats+
+
 # V4.1.0.1 (Hotfix)
 ## Removed:
 - Petrolpark's Library
